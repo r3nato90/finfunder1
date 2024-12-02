@@ -1,0 +1,321 @@
+@media only screen and (max-width: 575px) {
+    .logo_img {
+        padding: 5px;
+        height: 59px;
+    }
+
+    .table-light,
+    .table-light > td,
+    .table-light > th {
+        background-color: #ffffff;
+    }
+    .main_content.added {
+        margin-left: 0px !important;
+    }
+
+    .hide_small {
+        display: none;
+    }
+    .cross {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+
+    table {
+        border: 1px solid transparent;
+        box-shadow: none;
+    }
+    table thead {
+        display: none;
+    }
+
+    table tbody tr td:first-child {
+        padding-left: 10px;
+    }
+    table tbody tr td:before {
+        content: attr(data-label);
+        float: left;
+        font-size: 11px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+
+    tbody tr td:first-child {
+        padding-left: 0px;
+    }
+    table tbody tr td {
+        display: block;
+        text-align: right;
+        font-size: 13px;
+        padding: 0px 10px !important;
+        margin: 25px 0;
+        white-space: wrap;
+    }
+    table .product {
+        justify-content: flex-end;
+    }
+    .side_content {
+        margin-left: -250px;
+    }
+    .main_content.added {
+        margin-left: 0px !important;
+    }
+    .main_content {
+        margin-left: 0px;
+    }
+
+    .filter-item {
+        width: 100%;
+    }
+    .profile_notification > ul > li.profile-dropdown {
+        padding: 10px;
+    }
+    .header_sub_content {
+        padding-left: 10px;
+    }
+
+    .nav-style-one .nav-link {
+        display: block;
+        width: 100%;
+    }
+    .footer-right ul > li a {
+        font-size: 11px;
+    }
+    .footer-right > span {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .main_content.added {
+        margin-left: 0px !important;
+    }
+    .main_content {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .right-sidebar-wrapper {
+        width: 320px;
+    }
+}
+@media (min-width: 1400px) and (max-width: 1599px) {
+}
+
+@media screen and (max-width: 1399px) {
+    .card-body {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 1499px) {
+    .right-sidebar {
+        padding-inline: 0;
+        z-index: 15;
+    }
+    .right-sidebar-btn {
+        z-index: 16;
+    }
+    .right-sidebar-wrapper {
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 7;
+        background-color: var(--white);
+        padding: 10px;
+        border-left: 1px solid var(--border-2);
+        max-width: 320px;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        transition: 0.6s ease;
+        display: block;
+    }
+    .right-sidebar-wrapper.showHide {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    [data-sidebar="sm"] .sidebar {
+        min-height: 100% !important;
+    }
+    [data-sidebar="sm"] .main_content {
+        min-height: 100%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .topbar-left {
+        margin-left: 5px;
+        z-index: unset;
+    }
+    .sidebar {
+        transform: translateX(-250px);
+        transition: all 0.35s ease-in-out;
+        z-index: 20;
+    }
+
+    .main_content {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .vertical-tab {
+        width: 100%;
+    }
+
+    .main_content {
+        margin-left: 0;
+    }
+    .header.header-sticky {
+        z-index: 2;
+    }
+    .list-group-item {
+        color: var(--text-secondary);
+        border: 1px solid var(--border);
+        padding: 0.825rem 10px !important;
+    }
+    .page-title {
+        font-size: 16px;
+    }
+    .card-header .card-title {
+        font-size: 14px;
+    }
+    .dashboard_container {
+        padding: 15px 15px 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .fs-10 {
+        font-size: 9px;
+    }
+    .fs-11 {
+        font-size: 10px;
+    }
+    .fs-12 {
+        font-size: 11px;
+    }
+    .fs-13 {
+        font-size: 12px;
+    }
+    .fs-14 {
+        font-size: 13px;
+    }
+    .fs-15 {
+        font-size: 14px;
+    }
+    .fs-16 {
+        font-size: 15px;
+    }
+    .fs-17 {
+        font-size: 16px;
+    }
+    .fs-18 {
+        font-size: 17px;
+    }
+    .fs-19 {
+        font-size: 18px;
+    }
+    .fs-20 {
+        font-size: 19px;
+    }
+    .fs-22 {
+        font-size: 21px;
+    }
+    .fs-24 {
+        font-size: 23px !important;
+    }
+    .fs-30 {
+        font-size: 28px;
+    }
+    .fs-32 {
+        font-size: 30px;
+    }
+    .fs-35 {
+        font-size: 32px;
+    }
+    .shortcode-list li span {
+        display: inline-block;
+        font-size: 12px;
+    }
+    .border-light-left {
+        border-left: unset;
+    }
+}
+@media screen and (max-width: 576px) {
+}
+
+@media screen and (min-width: 1199px) {
+    .overlay {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    label {
+        font-size: 12px;
+    }
+    .btn--md {
+        border-radius: 4px;
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+    .btn--sm {
+        border-radius: 4px;
+        padding: 6px 18px;
+        font-size: 12px;
+    }
+    .form-wrapper {
+        padding: 15px;
+    }
+    .footer-content {
+        justify-content: center;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .nav-style-one .nav-link {
+        font-size: 13px;
+        padding: 6px 9px !important;
+    }
+    .nav-style-one .nav-link.active::before {
+        width: 12px;
+        height: 12px;
+        transform: rotate(60deg) skewX(25deg);
+        left: 10%;
+        bottom: -8px;
+    }
+    .title--sm {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .filter-action,
+    .statusUpdateBtn {
+        width: 100%;
+    }
+    .filter-action button {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 991px) {
+    [data-sidebar="sm"] .sidebar {
+        display: none;
+        visibility: hidden;
+    }
+    .profile-nav-img {
+        width: 30px;
+        height: 30px;
+    }
+}
